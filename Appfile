@@ -5,5 +5,5 @@ application {
 
 customization {
     image = "mysql:5.7"
-    run_args = "-v /vagrant/otto-mysql/conf.d:/etc/mysql/conf.d -p 3306:3306 -e MYSQL_ROOT_PASSWORD=root"
+    run_args = "-v /otto-deps/mysql-8576037a-8aae-d167-8e5e-1b28b2407f05/conf.d:/etc/mysql/conf.d -p 3306:3306 -e MYSQL_ROOT_PASSWORD=root"
 }
